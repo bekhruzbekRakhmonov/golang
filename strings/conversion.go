@@ -5,7 +5,14 @@ import _ "strings"
 import "strconv"
 
 func main() {
-	num1 := "127"
+	num := "127k"
 
-	fmt.Println(strconv.Itoa(num1))
+	intVar, err := strconv.Atoi(num)
+	if err != nil {
+		fmt.Errorf("Could not convert to integer")
+		return
+	}
+
+	fmt.Println("Converted int: ",intVar)
+
 }
