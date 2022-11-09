@@ -1,0 +1,1 @@
+### Source: https://itnext.io/creating-your-own-struct-field-tags-in-go-c6c86727eff
